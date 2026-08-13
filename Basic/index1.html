@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>from with validation</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h2>From with Validation</h2>
+
+    <form
+      name="MyFrom"
+      onsubmit="return validationFrom();"
+      method="post"
+      action="sumit_from.php"
+    >
+      <label for="lastName">last Name:</label>
+      <input type="text" id="lastName" /><br /><br />
+
+      <label for="middleName">middleName:</label>
+      <input type="text" id="lastName" /><br /><br />
+
+      <lebel for="firstName">firstName:</lebel>
+      <input type="text" id="firstName" /><br /><br />
+
+      <label for="email">email id:</label>
+      <input type="email" id="email" /><br /><br />
+
+      <label for="phone">phone:</label>
+      <input type="phone" id="phone" /><br /><br />
+
+      <label for="comment">comment:</label>
+      <input type="comment" id="comment" /><br /><br />
+      <input types="submit" />
+    </form>
+  </body>
+</html>
